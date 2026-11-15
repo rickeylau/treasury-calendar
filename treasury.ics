@@ -6,7 +6,7 @@ X-WR-CALNAME:Treasury Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 UID:13-week-bill-2026-10-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261019T153000Z
 DTEND:20261019T154500Z
 SUMMARY:Treasury Auction: 13-Week Bill
@@ -20,7 +20,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-10-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261019T153000Z
 DTEND:20261019T154500Z
 SUMMARY:Treasury Auction: 26-Week Bill
@@ -34,7 +34,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-10-20@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261020T153000Z
 DTEND:20261020T154500Z
 SUMMARY:Treasury Auction: 6-Week Bill
@@ -47,8 +47,22 @@ URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:17-week-bill-2026-10-21@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261021T153000Z
+DTEND:20261021T154500Z
+SUMMARY:Treasury Auction: 17-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797XA0\nOffering amou
+ nt (USD): 75000000000\nSettlement: 2026-10-27\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:20-year-bond-2026-10-21@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261021T170000Z
 DTEND:20261021T171500Z
 SUMMARY:Treasury Auction: 20-Year Bond
@@ -61,8 +75,36 @@ URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:4-week-bill-2026-10-22@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261022T153000Z
+DTEND:20261022T154500Z
+SUMMARY:Treasury Auction: 4-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797VY0\nOffering amou
+ nt (USD): 110000000000\nSettlement: 2026-10-27\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-10-22@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261022T153000Z
+DTEND:20261022T154500Z
+SUMMARY:Treasury Auction: 8-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WG8\nOffering amou
+ nt (USD): 105000000000\nSettlement: 2026-10-27\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5-year-tips-2026-10-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261022T170000Z
 DTEND:20261022T171500Z
 SUMMARY:Treasury Auction: 5-Year Tips
@@ -75,8 +117,204 @@ URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cash-management-bill-10-day-2026-10-22@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261022T170000Z
+DTEND:20261022T171500Z
+SUMMARY:Treasury Auction: Cash Management Bill 10-Day
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797UM7\nOffering amou
+ nt (USD): 25000000000\nSettlement: 2026-10-26\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-10-26@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261026T153000Z
+DTEND:20261026T154500Z
+SUMMARY:Treasury Auction: 13-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797VU8\nOffering amou
+ nt (USD): 95000000000\nSettlement: 2026-10-29\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-10-26@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261026T153000Z
+DTEND:20261026T154500Z
+SUMMARY:Treasury Auction: 26-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WW3\nOffering amou
+ nt (USD): 82000000000\nSettlement: 2026-10-29\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2-year-note-2026-10-26@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261026T170000Z
+DTEND:20261026T171500Z
+SUMMARY:Treasury Auction: 2-Year Note
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 91282CRU7\nOffering amou
+ nt (USD): 69000000000\nSettlement: 2026-11-02\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:52-week-bill-2026-10-27@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261027T153000Z
+DTEND:20261027T154500Z
+SUMMARY:Treasury Auction: 52-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WT0\nOffering amou
+ nt (USD): 54000000000\nSettlement: 2026-10-29\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-week-bill-2026-10-27@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261027T153000Z
+DTEND:20261027T154500Z
+SUMMARY:Treasury Auction: 6-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797VG9\nOffering amou
+ nt (USD): 95000000000\nSettlement: 2026-10-29\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5-year-note-2026-10-27@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261027T170000Z
+DTEND:20261027T171500Z
+SUMMARY:Treasury Auction: 5-Year Note
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 91282CRT0\nOffering amou
+ nt (USD): 70000000000\nSettlement: 2026-11-02\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-10-28@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261028T153000Z
+DTEND:20261028T154500Z
+SUMMARY:Treasury Auction: 17-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797XB8\nOffering amou
+ nt (USD): 75000000000\nSettlement: 2026-11-03\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2-year-frn-2026-10-28@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261028T153000Z
+DTEND:20261028T154500Z
+SUMMARY:Treasury Auction: 2-Year Frn
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 91282CRS2\nOffering amou
+ nt (USD): 30000000000\nSettlement: 2026-11-02\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-10-29@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261029T153000Z
+DTEND:20261029T154500Z
+SUMMARY:Treasury Auction: 4-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797VZ7\nOffering amou
+ nt (USD): 115000000000\nSettlement: 2026-11-03\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-10-29@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261029T153000Z
+DTEND:20261029T154500Z
+SUMMARY:Treasury Auction: 8-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WH6\nOffering amou
+ nt (USD): 110000000000\nSettlement: 2026-11-03\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7-year-note-2026-10-29@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261029T170000Z
+DTEND:20261029T171500Z
+SUMMARY:Treasury Auction: 7-Year Note
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 91282CRV5\nOffering amou
+ nt (USD): 44000000000\nSettlement: 2026-11-02\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-11-02@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261102T163000Z
+DTEND:20261102T164500Z
+SUMMARY:Treasury Auction: 13-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797VV6\nOffering amou
+ nt (USD): 95000000000\nSettlement: 2026-11-05\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-11-02@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261102T163000Z
+DTEND:20261102T164500Z
+SUMMARY:Treasury Auction: 26-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WX1\nOffering amou
+ nt (USD): 82000000000\nSettlement: 2026-11-05\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:treasury-borrowing-estimates-2026-11-02@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261102T200000Z
 DTEND:20261102T201500Z
 SUMMARY:Treasury Borrowing Estimates
@@ -89,8 +327,22 @@ URL:https://home.treasury.gov/policy-issues/financing-the-government/quarte
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:6-week-bill-2026-11-03@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261103T163000Z
+DTEND:20261103T164500Z
+SUMMARY:Treasury Auction: 6-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797VH7\nOffering amou
+ nt (USD): 100000000000\nSettlement: 2026-11-05\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:quarterly-refunding-announcement-2026-11-04@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261104T133000Z
 DTEND:20261104T134500Z
 SUMMARY:Quarterly Refunding Announcement
@@ -103,174 +355,218 @@ URL:https://home.treasury.gov/policy-issues/financing-the-government/quarte
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:17-week-bill-2026-11-04@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261104T163000Z
+DTEND:20261104T164500Z
+SUMMARY:Treasury Auction: 17-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797XG7\nOffering amou
+ nt (USD): 75000000000\nSettlement: 2026-11-10\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-11-05@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261105T163000Z
+DTEND:20261105T164500Z
+SUMMARY:Treasury Auction: 4-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WE3\nOffering amou
+ nt (USD): 115000000000\nSettlement: 2026-11-10\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-11-05@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261105T163000Z
+DTEND:20261105T164500Z
+SUMMARY:Treasury Auction: 8-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WN3\nOffering amou
+ nt (USD): 110000000000\nSettlement: 2026-11-10\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:13-week-bill-2026-11-09@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-12\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
+DTSTAMP:20261115T205959Z
+DTSTART:20261109T163000Z
+DTEND:20261109T164500Z
+SUMMARY:Treasury Auction: 13-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WB9\nOffering amou
+ nt (USD): 95000000000\nSettlement: 2026-11-12\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-11-09@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-12\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
+DTSTAMP:20261115T205959Z
+DTSTART:20261109T163000Z
+DTEND:20261109T164500Z
+SUMMARY:Treasury Auction: 26-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797UX3\nOffering amou
+ nt (USD): 82000000000\nSettlement: 2026-11-12\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3-year-note-2026-11-09@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:Treasury Auction: 3-Year Note (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-16\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
+DTSTAMP:20261115T205959Z
+DTSTART:20261109T180000Z
+DTEND:20261109T181500Z
+SUMMARY:Treasury Auction: 3-Year Note
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 91282CRW3\nOffering amou
+ nt (USD): 58000000000\nSettlement: 2026-11-16\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-11-09@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-12\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
+DTSTAMP:20261115T205959Z
+DTSTART:20261109T180000Z
+DTEND:20261109T181500Z
+SUMMARY:Treasury Auction: 6-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797TC1\nOffering amou
+ nt (USD): 100000000000\nSettlement: 2026-11-12\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-note-2026-11-10@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-SUMMARY:Treasury Auction: 10-Year Note (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-16\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:17-week-bill-2026-11-12@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-17\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:30-year-bond-2026-11-12@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Treasury Auction: 30-Year Bond (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-16\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
+DTSTAMP:20261115T205959Z
+DTSTART:20261110T180000Z
+DTEND:20261110T181500Z
+SUMMARY:Treasury Auction: 10-Year Note
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 91282CRX1\nOffering amou
+ nt (USD): 42000000000\nSettlement: 2026-11-16\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2026-11-12@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-17\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
+DTSTAMP:20261115T205959Z
+DTSTART:20261112T163000Z
+DTEND:20261112T164500Z
+SUMMARY:Treasury Auction: 4-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WF0\nOffering amou
+ nt (USD): 115000000000\nSettlement: 2026-11-17\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2026-11-12@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-17\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
+DTSTAMP:20261115T205959Z
+DTSTART:20261112T163000Z
+DTEND:20261112T164500Z
+SUMMARY:Treasury Auction: 8-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797WP8\nOffering amou
+ nt (USD): 110000000000\nSettlement: 2026-11-17\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-11-12@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261112T180000Z
+DTEND:20261112T181500Z
+SUMMARY:Treasury Auction: 17-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797XH5\nOffering amou
+ nt (USD): 75000000000\nSettlement: 2026-11-17\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:30-year-bond-2026-11-12@treasury-calendar
+DTSTAMP:20261115T205959Z
+DTSTART:20261112T180000Z
+DTEND:20261112T181500Z
+SUMMARY:Treasury Auction: 30-Year Bond
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912810UY2\nOffering amou
+ nt (USD): 25000000000\nSettlement: 2026-11-16\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2026-11-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261116T163000Z
 DTEND:20261116T164500Z
 SUMMARY:Treasury Auction: 13-Week Bill
 DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
- -minute block is only a display reminder.\nSettlement: 2026-11-19\nSource:
-  https://www.treasurydirect.gov/auctions/auction-announcements/\nVerify cu
- rrent official announcement before trading.
+ -minute block is only a display reminder.\nCUSIP: 912797TV9\nOffering amou
+ nt (USD): 95000000000\nSettlement: 2026-11-19\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
 URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-11-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261116T163000Z
 DTEND:20261116T164500Z
 SUMMARY:Treasury Auction: 26-Week Bill
 DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
- -minute block is only a display reminder.\nSettlement: 2026-11-19\nSource:
-  https://www.treasurydirect.gov/auctions/auction-announcements/\nVerify cu
- rrent official announcement before trading.
+ -minute block is only a display reminder.\nCUSIP: 912797XD4\nOffering amou
+ nt (USD): 82000000000\nSettlement: 2026-11-19\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
 URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-11-17@treasury-calendar
-DTSTAMP:20261115T115847Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
-DESCRIPTION:Tentative date or unavailable official closing time. Check form
- al auction announcement.\nSettlement: 2026-11-19\nSource: https://home.tre
- asury.gov/system/files/221/Tentative-Auction-Schedule.pdf\nVerify current 
- official announcement before trading.
-URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
- df
+DTSTAMP:20261115T205959Z
+DTSTART:20261117T163000Z
+DTEND:20261117T164500Z
+SUMMARY:Treasury Auction: 6-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nCUSIP: 912797VJ3\nOffering amou
+ nt (USD): 100000000000\nSettlement: 2026-11-19\nSource: https://www.treasu
+ rydirect.gov/auctions/auction-announcements/\nVerify current official anno
+ uncement before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2026-11-18@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -284,20 +580,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20-year-bond-2026-11-18@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261118T180000Z
 DTEND:20261118T181500Z
 SUMMARY:Treasury Auction: 20-Year Bond
 DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
- -minute block is only a display reminder.\nSettlement: 2026-11-30\nSource:
-  https://www.treasurydirect.gov/auctions/auction-announcements/\nVerify cu
- rrent official announcement before trading.
+ -minute block is only a display reminder.\nCUSIP: 912810UZ9\nOffering amou
+ nt (USD): 16000000000\nSettlement: 2026-11-30\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
 URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2026-11-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -311,7 +608,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2026-11-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -325,20 +622,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-tips-2026-11-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20261119T180000Z
 DTEND:20261119T181500Z
 SUMMARY:Treasury Auction: 10-Year Tips
 DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
- -minute block is only a display reminder.\nSettlement: 2026-11-30\nSource:
-  https://www.treasurydirect.gov/auctions/auction-announcements/\nVerify cu
- rrent official announcement before trading.
+ -minute block is only a display reminder.\nCUSIP: 91282CRE3\nOffering amou
+ nt (USD): 19000000000\nSettlement: 2026-11-30\nSource: https://www.treasur
+ ydirect.gov/auctions/auction-announcements/\nVerify current official annou
+ ncement before trading.
 URL:https://www.treasurydirect.gov/auctions/auction-announcements/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2026-11-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -352,7 +650,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-note-2026-11-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Treasury Auction: 2-Year Note (Time TBD)
@@ -366,7 +664,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-11-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -380,7 +678,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-frn-2026-11-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Treasury Auction: 2-Year Frn (Time TBD)
@@ -394,7 +692,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5-year-note-2026-11-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Treasury Auction: 5-Year Note (Time TBD)
@@ -408,7 +706,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:52-week-bill-2026-11-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Treasury Auction: 52-Week Bill (Time TBD)
@@ -422,7 +720,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-11-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -436,7 +734,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2026-11-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -450,7 +748,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2026-11-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -464,7 +762,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7-year-note-2026-11-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Treasury Auction: 7-Year Note (Time TBD)
@@ -478,7 +776,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2026-11-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -492,7 +790,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2026-11-30@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -506,7 +804,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-11-30@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -520,7 +818,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-12-01@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -534,7 +832,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2026-12-02@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -548,7 +846,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2026-12-03@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -562,7 +860,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2026-12-03@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -576,7 +874,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2026-12-07@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -590,7 +888,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-12-07@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -604,7 +902,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3-year-note-2026-12-07@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Treasury Auction: 3-Year Note (Time TBD)
@@ -618,7 +916,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-note-2026-12-08@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Treasury Auction: 10-Year Note (Time TBD)
@@ -632,7 +930,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-12-08@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -646,7 +944,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2026-12-09@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -660,7 +958,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30-year-bond-2026-12-10@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Treasury Auction: 30-Year Bond (Time TBD)
@@ -674,7 +972,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2026-12-10@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -688,7 +986,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2026-12-10@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -702,7 +1000,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2026-12-14@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -716,7 +1014,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-12-14@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -730,7 +1028,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-12-15@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -744,7 +1042,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2026-12-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -758,7 +1056,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2026-12-17@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -772,7 +1070,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2026-12-17@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -786,7 +1084,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2026-12-21@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -800,7 +1098,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-12-21@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -814,7 +1112,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20-year-bond-2026-12-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Treasury Auction: 20-Year Bond (Time TBD)
@@ -828,7 +1126,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:52-week-bill-2026-12-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Treasury Auction: 52-Week Bill (Time TBD)
@@ -842,7 +1140,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-12-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -856,7 +1154,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2026-12-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -870,7 +1168,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-frn-2026-12-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Treasury Auction: 2-Year Frn (Time TBD)
@@ -884,7 +1182,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5-year-tips-2026-12-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Treasury Auction: 5-Year Tips (Time TBD)
@@ -898,7 +1196,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2026-12-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -912,7 +1210,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2026-12-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -926,7 +1224,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2026-12-28@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -940,7 +1238,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-note-2026-12-28@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Treasury Auction: 2-Year Note (Time TBD)
@@ -954,7 +1252,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2026-12-28@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -968,7 +1266,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5-year-note-2026-12-28@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
 SUMMARY:Treasury Auction: 5-Year Note (Time TBD)
@@ -982,7 +1280,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2026-12-29@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -996,7 +1294,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7-year-note-2026-12-29@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Treasury Auction: 7-Year Note (Time TBD)
@@ -1010,7 +1308,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2026-12-30@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1024,7 +1322,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2026-12-31@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -1038,7 +1336,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2026-12-31@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -1052,7 +1350,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-01-04@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -1066,7 +1364,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-01-04@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -1080,7 +1378,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-01-05@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -1094,7 +1392,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-01-06@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1108,7 +1406,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-01-07@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -1122,7 +1420,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-01-07@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -1136,7 +1434,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-01-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -1150,7 +1448,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-01-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -1164,7 +1462,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3-year-note-2027-01-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Treasury Auction: 3-Year Note (Time TBD)
@@ -1178,7 +1476,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-note-2027-01-12@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Treasury Auction: 10-Year Note (Time TBD)
@@ -1192,7 +1490,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-01-12@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -1206,7 +1504,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-01-13@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1220,7 +1518,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30-year-bond-2027-01-13@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:Treasury Auction: 30-Year Bond (Time TBD)
@@ -1234,7 +1532,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-01-14@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -1248,7 +1546,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-01-14@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -1262,7 +1560,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-01-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -1276,7 +1574,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-01-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -1290,7 +1588,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:52-week-bill-2027-01-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Treasury Auction: 52-Week Bill (Time TBD)
@@ -1304,7 +1602,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-01-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -1318,7 +1616,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-01-20@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1332,7 +1630,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20-year-bond-2027-01-20@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Treasury Auction: 20-Year Bond (Time TBD)
@@ -1346,7 +1644,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-tips-2027-01-21@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Treasury Auction: 10-Year Tips (Time TBD)
@@ -1360,7 +1658,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-01-21@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -1374,7 +1672,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-01-21@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -1388,7 +1686,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-01-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -1402,7 +1700,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-note-2027-01-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 SUMMARY:Treasury Auction: 2-Year Note (Time TBD)
@@ -1416,7 +1714,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-01-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -1430,7 +1728,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5-year-note-2027-01-26@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Treasury Auction: 5-Year Note (Time TBD)
@@ -1444,7 +1742,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-01-26@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -1458,7 +1756,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-01-27@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1472,7 +1770,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-frn-2027-01-27@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:Treasury Auction: 2-Year Frn (Time TBD)
@@ -1486,7 +1784,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-01-28@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -1500,7 +1798,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7-year-note-2027-01-28@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Treasury Auction: 7-Year Note (Time TBD)
@@ -1514,7 +1812,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-01-28@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -1528,7 +1826,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-02-01@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -1542,7 +1840,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-02-01@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -1556,7 +1854,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:treasury-borrowing-estimates-2027-02-01@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20270201T200000Z
 DTEND:20270201T201500Z
 SUMMARY:Treasury Borrowing Estimates
@@ -1570,7 +1868,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-02-02@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -1584,7 +1882,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-02-03@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1598,7 +1896,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:quarterly-refunding-announcement-2027-02-03@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART:20270203T133000Z
 DTEND:20270203T134500Z
 SUMMARY:Quarterly Refunding Announcement
@@ -1612,7 +1910,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-02-04@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -1626,7 +1924,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-02-04@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -1640,7 +1938,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-02-08@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -1654,7 +1952,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-02-08@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -1668,7 +1966,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3-year-note-2027-02-09@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Treasury Auction: 3-Year Note (Time TBD)
@@ -1682,7 +1980,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-02-09@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -1696,7 +1994,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-note-2027-02-10@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:Treasury Auction: 10-Year Note (Time TBD)
@@ -1710,7 +2008,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-02-10@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1724,7 +2022,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30-year-bond-2027-02-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Treasury Auction: 30-Year Bond (Time TBD)
@@ -1738,7 +2036,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-02-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -1752,7 +2050,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-02-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -1766,7 +2064,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-02-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -1780,7 +2078,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-02-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -1794,7 +2092,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:52-week-bill-2027-02-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Treasury Auction: 52-Week Bill (Time TBD)
@@ -1808,7 +2106,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-02-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -1822,7 +2120,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-02-17@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1836,7 +2134,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20-year-bond-2027-02-17@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Treasury Auction: 20-Year Bond (Time TBD)
@@ -1850,7 +2148,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30-year-tips-2027-02-18@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Treasury Auction: 30-Year Tips (Time TBD)
@@ -1864,7 +2162,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-02-18@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -1878,7 +2176,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-02-18@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -1892,7 +2190,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-02-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -1906,7 +2204,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-02-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -1920,7 +2218,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-note-2027-02-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Treasury Auction: 2-Year Note (Time TBD)
@@ -1934,7 +2232,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-02-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -1948,7 +2246,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-02-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -1962,7 +2260,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-frn-2027-02-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Treasury Auction: 2-Year Frn (Time TBD)
@@ -1976,7 +2274,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5-year-note-2027-02-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:Treasury Auction: 5-Year Note (Time TBD)
@@ -1990,7 +2288,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-02-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2004,7 +2302,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7-year-note-2027-02-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Treasury Auction: 7-Year Note (Time TBD)
@@ -2018,7 +2316,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-02-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2032,7 +2330,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-03-01@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2046,7 +2344,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-03-01@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2060,7 +2358,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-03-02@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -2074,7 +2372,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-03-03@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -2088,7 +2386,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-03-04@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2102,7 +2400,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-03-04@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2116,7 +2414,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-03-08@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2130,7 +2428,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-03-08@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2144,7 +2442,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3-year-note-2027-03-09@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:Treasury Auction: 3-Year Note (Time TBD)
@@ -2158,7 +2456,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-03-09@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -2172,7 +2470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-note-2027-03-10@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Treasury Auction: 10-Year Note (Time TBD)
@@ -2186,7 +2484,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-03-10@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -2200,7 +2498,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30-year-bond-2027-03-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Treasury Auction: 30-Year Bond (Time TBD)
@@ -2214,7 +2512,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-03-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2228,7 +2526,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-03-11@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2242,7 +2540,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-03-15@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2256,7 +2554,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-03-15@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2270,7 +2568,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20-year-bond-2027-03-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:Treasury Auction: 20-Year Bond (Time TBD)
@@ -2284,7 +2582,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:52-week-bill-2027-03-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:Treasury Auction: 52-Week Bill (Time TBD)
@@ -2298,7 +2596,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-03-16@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -2312,7 +2610,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-03-17@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -2326,7 +2624,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-tips-2027-03-18@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:Treasury Auction: 10-Year Tips (Time TBD)
@@ -2340,7 +2638,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-03-18@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2354,7 +2652,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-03-18@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2368,7 +2666,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-03-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270322
 DTEND;VALUE=DATE:20270323
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2382,7 +2680,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-03-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270322
 DTEND;VALUE=DATE:20270323
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2396,7 +2694,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-note-2027-03-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270324
 SUMMARY:Treasury Auction: 2-Year Note (Time TBD)
@@ -2410,7 +2708,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-03-23@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270323
 DTEND;VALUE=DATE:20270324
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -2424,7 +2722,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-03-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -2438,7 +2736,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-frn-2027-03-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Treasury Auction: 2-Year Frn (Time TBD)
@@ -2452,7 +2750,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5-year-note-2027-03-24@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270325
 SUMMARY:Treasury Auction: 5-Year Note (Time TBD)
@@ -2466,7 +2764,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-03-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2480,7 +2778,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7-year-note-2027-03-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Treasury Auction: 7-Year Note (Time TBD)
@@ -2494,7 +2792,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-03-25@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270326
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2508,7 +2806,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-03-29@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2522,7 +2820,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-03-29@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2536,7 +2834,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-03-30@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -2550,7 +2848,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-03-31@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -2564,7 +2862,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-04-01@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2578,7 +2876,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-04-01@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2592,7 +2890,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-04-05@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2606,7 +2904,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-04-05@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2620,7 +2918,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-04-06@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -2634,7 +2932,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-04-07@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -2648,7 +2946,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-04-08@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2662,7 +2960,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-04-08@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2676,7 +2974,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:10-year-note-2027-04-12@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 SUMMARY:Treasury Auction: 10-Year Note (Time TBD)
@@ -2690,7 +2988,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-04-12@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2704,7 +3002,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-04-12@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2718,7 +3016,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3-year-note-2027-04-12@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 SUMMARY:Treasury Auction: 3-Year Note (Time TBD)
@@ -2732,7 +3030,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30-year-bond-2027-04-13@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Treasury Auction: 30-Year Bond (Time TBD)
@@ -2746,7 +3044,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:52-week-bill-2027-04-13@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Treasury Auction: 52-Week Bill (Time TBD)
@@ -2760,7 +3058,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-04-13@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -2774,7 +3072,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-04-14@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270414
 DTEND;VALUE=DATE:20270415
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -2788,7 +3086,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-04-15@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2802,7 +3100,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-04-15@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2816,7 +3114,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-04-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270420
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2830,7 +3128,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-04-19@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270420
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2844,7 +3142,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-04-20@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -2858,7 +3156,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-04-21@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270422
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -2872,7 +3170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:20-year-bond-2027-04-21@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270422
 SUMMARY:Treasury Auction: 20-Year Bond (Time TBD)
@@ -2886,7 +3184,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-04-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -2900,7 +3198,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5-year-tips-2027-04-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Treasury Auction: 5-Year Tips (Time TBD)
@@ -2914,7 +3212,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-04-22@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -2928,7 +3226,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-04-26@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -2942,7 +3240,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-note-2027-04-26@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:Treasury Auction: 2-Year Note (Time TBD)
@@ -2956,7 +3254,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-04-26@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -2970,7 +3268,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5-year-note-2027-04-26@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:Treasury Auction: 5-Year Note (Time TBD)
@@ -2984,7 +3282,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2-year-frn-2027-04-27@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Treasury Auction: 2-Year Frn (Time TBD)
@@ -2998,7 +3296,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-04-27@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
@@ -3012,7 +3310,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7-year-note-2027-04-27@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:Treasury Auction: 7-Year Note (Time TBD)
@@ -3026,7 +3324,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17-week-bill-2027-04-28@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270428
 DTEND;VALUE=DATE:20270429
 SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
@@ -3040,7 +3338,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4-week-bill-2027-04-29@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
@@ -3054,7 +3352,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8-week-bill-2027-04-29@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
@@ -3068,7 +3366,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13-week-bill-2027-05-03@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
@@ -3082,7 +3380,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26-week-bill-2027-05-03@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270503
 DTEND;VALUE=DATE:20270504
 SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
@@ -3096,7 +3394,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6-week-bill-2027-05-04@treasury-calendar
-DTSTAMP:20261115T115847Z
+DTSTAMP:20261115T205959Z
 DTSTART;VALUE=DATE:20270504
 DTEND;VALUE=DATE:20270505
 SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)

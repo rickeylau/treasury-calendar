@@ -1,5 +1,5 @@
 {
-  "stamp": "20261115T115847Z",
+  "stamp": "20261115T205959Z",
   "events": [
     {
       "date": "2026-10-19",
@@ -36,6 +36,17 @@
     },
     {
       "date": "2026-10-21",
+      "label": "17-Week Bill",
+      "issue": "2026-10-27",
+      "maturity": "2027-02-23",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797XA0",
+      "amount": "75000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-21",
       "label": "20-Year Bond",
       "issue": "2026-10-23",
       "maturity": "2046-08-15",
@@ -43,6 +54,17 @@
       "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
       "cusip": "912810UX4",
       "amount": "13000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-22",
+      "label": "4-Week Bill",
+      "issue": "2026-10-27",
+      "maturity": "2026-11-24",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797VY0",
+      "amount": "110000000000",
       "confirmed": true
     },
     {
@@ -57,11 +79,198 @@
       "confirmed": true
     },
     {
+      "date": "2026-10-22",
+      "label": "8-Week Bill",
+      "issue": "2026-10-27",
+      "maturity": "2026-12-22",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WG8",
+      "amount": "105000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-22",
+      "label": "Cash Management Bill 10-Day",
+      "issue": "2026-10-26",
+      "maturity": "2026-11-05",
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797UM7",
+      "amount": "25000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-26",
+      "label": "13-Week Bill",
+      "issue": "2026-10-29",
+      "maturity": "2027-01-28",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797VU8",
+      "amount": "95000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-26",
+      "label": "2-Year Note",
+      "issue": "2026-11-02",
+      "maturity": "2028-10-31",
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "91282CRU7",
+      "amount": "69000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-26",
+      "label": "26-Week Bill",
+      "issue": "2026-10-29",
+      "maturity": "2027-04-29",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WW3",
+      "amount": "82000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-27",
+      "label": "5-Year Note",
+      "issue": "2026-11-02",
+      "maturity": "2031-10-31",
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "91282CRT0",
+      "amount": "70000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-27",
+      "label": "52-Week Bill",
+      "issue": "2026-10-29",
+      "maturity": "2027-10-28",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WT0",
+      "amount": "54000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-27",
+      "label": "6-Week Bill",
+      "issue": "2026-10-29",
+      "maturity": "2026-12-10",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797VG9",
+      "amount": "95000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-28",
+      "label": "17-Week Bill",
+      "issue": "2026-11-03",
+      "maturity": "2027-03-02",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797XB8",
+      "amount": "75000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-28",
+      "label": "2-Year Frn",
+      "issue": "2026-11-02",
+      "maturity": "2028-10-31",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "91282CRS2",
+      "amount": "30000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-29",
+      "label": "4-Week Bill",
+      "issue": "2026-11-03",
+      "maturity": "2026-12-01",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797VZ7",
+      "amount": "115000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-29",
+      "label": "7-Year Note",
+      "issue": "2026-11-02",
+      "maturity": "2033-10-31",
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "91282CRV5",
+      "amount": "44000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-10-29",
+      "label": "8-Week Bill",
+      "issue": "2026-11-03",
+      "maturity": "2026-12-29",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WH6",
+      "amount": "110000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-02",
+      "label": "13-Week Bill",
+      "issue": "2026-11-05",
+      "maturity": "2027-02-04",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797VV6",
+      "amount": "95000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-02",
+      "label": "26-Week Bill",
+      "issue": "2026-11-05",
+      "maturity": "2027-05-06",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WX1",
+      "amount": "82000000000",
+      "confirmed": true
+    },
+    {
       "date": "2026-11-02",
       "label": "Treasury Borrowing Estimates",
       "clock": "15:00",
       "source": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents",
       "kind": "qra"
+    },
+    {
+      "date": "2026-11-03",
+      "label": "6-Week Bill",
+      "issue": "2026-11-05",
+      "maturity": "2026-12-17",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797VH7",
+      "amount": "100000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-04",
+      "label": "17-Week Bill",
+      "issue": "2026-11-10",
+      "maturity": "2027-03-09",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797XG7",
+      "amount": "75000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-04",
@@ -71,76 +280,125 @@
       "kind": "qra"
     },
     {
+      "date": "2026-11-05",
+      "label": "4-Week Bill",
+      "issue": "2026-11-10",
+      "maturity": "2026-12-08",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WE3",
+      "amount": "115000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-05",
+      "label": "8-Week Bill",
+      "issue": "2026-11-10",
+      "maturity": "2027-01-05",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WN3",
+      "amount": "110000000000",
+      "confirmed": true
+    },
+    {
       "date": "2026-11-09",
       "label": "13-Week Bill",
       "issue": "2026-11-12",
       "maturity": "2027-02-11",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WB9",
+      "amount": "95000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-09",
       "label": "26-Week Bill",
       "issue": "2026-11-12",
       "maturity": "2027-05-13",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797UX3",
+      "amount": "82000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-09",
       "label": "3-Year Note",
       "issue": "2026-11-16",
       "maturity": "2029-11-15",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "91282CRW3",
+      "amount": "58000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-09",
       "label": "6-Week Bill",
       "issue": "2026-11-12",
       "maturity": "2026-12-24",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797TC1",
+      "amount": "100000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-10",
       "label": "10-Year Note",
       "issue": "2026-11-16",
       "maturity": "2036-11-15",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "91282CRX1",
+      "amount": "42000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-12",
       "label": "17-Week Bill",
       "issue": "2026-11-17",
       "maturity": "2027-03-16",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797XH5",
+      "amount": "75000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-12",
       "label": "30-Year Bond",
       "issue": "2026-11-16",
       "maturity": "2056-11-15",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912810UY2",
+      "amount": "25000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-12",
       "label": "4-Week Bill",
       "issue": "2026-11-17",
       "maturity": "2026-12-15",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WF0",
+      "amount": "115000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-12",
       "label": "8-Week Bill",
       "issue": "2026-11-17",
       "maturity": "2027-01-12",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797WP8",
+      "amount": "110000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-16",
@@ -149,6 +407,8 @@
       "maturity": "2027-02-18",
       "clock": "11:30",
       "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797TV9",
+      "amount": "95000000000",
       "confirmed": true
     },
     {
@@ -158,6 +418,8 @@
       "maturity": "2027-05-20",
       "clock": "11:30",
       "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797XD4",
+      "amount": "82000000000",
       "confirmed": true
     },
     {
@@ -165,8 +427,11 @@
       "label": "6-Week Bill",
       "issue": "2026-11-19",
       "maturity": "2026-12-31",
-      "clock": null,
-      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797VJ3",
+      "amount": "100000000000",
+      "confirmed": true
     },
     {
       "date": "2026-11-18",
@@ -183,6 +448,8 @@
       "maturity": "2046-11-15",
       "clock": "13:00",
       "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912810UZ9",
+      "amount": "16000000000",
       "confirmed": true
     },
     {
@@ -192,6 +459,8 @@
       "maturity": "2036-07-15",
       "clock": "13:00",
       "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "91282CRE3",
+      "amount": "19000000000",
       "confirmed": true
     },
     {
