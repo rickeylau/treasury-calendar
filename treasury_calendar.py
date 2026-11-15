@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """US Treasury auction and quarterly financing calendar. No API keys or trading actions."""
-import argparse, json, re, subprocess, tempfile, unicodedata
+import argparse, json, re, subprocess, tempfile, unicodedata, time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
+from http.client import IncompleteRead
 from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
@@ -19,11 +21,40 @@ TERM=re.compile(r'^\s*(\d+\s*[-–]\s*(?:Week|Year)\s+(?:BILL|NOTE|BOND|TIPS|FRN
 DRE=re.compile(r'\b(?:Mon(?:day)?|Tue(?:sday)?|Wed(?:nesday)?|Thu(?:rsday)?|Fri(?:day)?|Sat(?:urday)?|Sun(?:day)?),?\s+([A-Za-z]+)\s+(\d{1,2}),\s+(20\d{2})\b',re.I)
 DATE_TEXT=re.compile(r'([A-Za-z]+)\s+(\d{1,2}),\s+(20\d{2})')
 
+# Network settings: retry only transient transport/HTTP failures.
+FETCH_TIMEOUT=45
+RETRY_DELAYS=(3,8)
+RETRY_HTTP={408,429,500,502,503,504}
+
 def fetch(url,limit=15_000_000):
-    req=Request(url,headers={'User-Agent':'Mozilla/5.0 TreasuryCalendar/1.0','Accept':'*/*'})
-    with urlopen(req,timeout=45) as r: data=r.read(limit+1)
-    if len(data)>limit: raise ValueError('Response exceeds limit')
-    return data
+    attempts=len(RETRY_DELAYS)+1
+    for attempt in range(1,attempts+1):
+        print(f'Downloading {url} (attempt {attempt}/{attempts})',flush=True)
+        req=Request(url,headers={'User-Agent':'Mozilla/5.0 TreasuryCalendar/1.1','Accept':'*/*'})
+        try:
+            with urlopen(req,timeout=FETCH_TIMEOUT) as r:
+                data=r.read(limit+1)
+            if len(data)>limit: raise ValueError('Response exceeds limit')
+            return data
+        except HTTPError as e:
+            if e.code not in RETRY_HTTP or attempt==attempts:
+                e.close()
+                raise
+            delay=RETRY_DELAYS[attempt-1]
+            # Honor numeric Retry-After within the bounded job budget.
+            retry_after=e.headers.get('Retry-After','') if e.headers else ''
+            e.close()
+            if retry_after.isdigit():
+                if int(retry_after)>45:
+                    print(f'HTTP {e.code}; Retry-After exceeds retry budget',flush=True)
+                    raise
+                delay=max(delay,int(retry_after))
+            print(f'HTTP {e.code}; retry in {delay}s',flush=True)
+        except (TimeoutError,URLError,ConnectionError,IncompleteRead) as e:
+            if attempt==attempts: raise
+            delay=RETRY_DELAYS[attempt-1]
+            print(f'{type(e).__name__}: {e}; retry in {delay}s',flush=True)
+        time.sleep(delay)
 
 def date_parts(month,day,year):
     return datetime.strptime(f'{month[:3]} {day} {year}','%b %d %Y').date().isoformat()
