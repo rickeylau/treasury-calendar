@@ -1,0 +1,885 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Treasury Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Treasury Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:treasury-borrowing-estimates-2026-11-02@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20261102T200000Z
+DTEND:20261102T201500Z
+SUMMARY:Treasury Borrowing Estimates
+DESCRIPTION:Scheduled release time ET.\nSource: https://home.treasury.gov/p
+ olicy-issues/financing-the-government/quarterly-refunding/most-recent-quar
+ terly-refunding-documents\nVerify current official announcement before tra
+ ding.
+URL:https://home.treasury.gov/policy-issues/financing-the-government/quarte
+ rly-refunding/most-recent-quarterly-refunding-documents
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:quarterly-refunding-announcement-2026-11-04@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20261104T133000Z
+DTEND:20261104T134500Z
+SUMMARY:Quarterly Refunding Announcement
+DESCRIPTION:Scheduled release time ET.\nSource: https://home.treasury.gov/p
+ olicy-issues/financing-the-government/quarterly-refunding/most-recent-quar
+ terly-refunding-documents\nVerify current official announcement before tra
+ ding.
+URL:https://home.treasury.gov/policy-issues/financing-the-government/quarte
+ rly-refunding/most-recent-quarterly-refunding-documents
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-11-16@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20261116T163000Z
+DTEND:20261116T164500Z
+SUMMARY:Treasury Auction: 13-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nSource: https://www.treasurydir
+ ect.gov/auctions/auction-announcements/\nVerify current official announcem
+ ent before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-11-16@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20261116T163000Z
+DTEND:20261116T164500Z
+SUMMARY:Treasury Auction: 26-Week Bill
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nSource: https://www.treasurydir
+ ect.gov/auctions/auction-announcements/\nVerify current official announcem
+ ent before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-week-bill-2026-11-17@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-11-18@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20-year-bond-2026-11-18@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20261118T180000Z
+DTEND:20261118T181500Z
+SUMMARY:Treasury Auction: 20-Year Bond
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nSource: https://www.treasurydir
+ ect.gov/auctions/auction-announcements/\nVerify current official announcem
+ ent before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-11-19@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-11-19@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:10-year-tips-2026-11-19@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20261119T180000Z
+DTEND:20261119T181500Z
+SUMMARY:Treasury Auction: 10-Year Tips
+DESCRIPTION:Competitive bid cutoff ET\; results normally follow shortly. 15
+ -minute block is only a display reminder.\nSource: https://www.treasurydir
+ ect.gov/auctions/auction-announcements/\nVerify current official announcem
+ ent before trading.
+URL:https://www.treasurydirect.gov/auctions/auction-announcements/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-11-23@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2-year-note-2026-11-23@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Treasury Auction: 2-Year Note (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-11-23@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2-year-frn-2026-11-24@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Treasury Auction: 2-Year Frn (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5-year-note-2026-11-24@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Treasury Auction: 5-Year Note (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:52-week-bill-2026-11-24@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Treasury Auction: 52-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-week-bill-2026-11-24@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-11-25@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-11-25@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7-year-note-2026-11-25@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Treasury Auction: 7-Year Note (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-11-25@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-11-30@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-11-30@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-week-bill-2026-12-01@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-12-02@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-12-03@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-12-03@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-12-07@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-12-07@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3-year-note-2026-12-07@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Treasury Auction: 3-Year Note (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:10-year-note-2026-12-08@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Treasury Auction: 10-Year Note (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-week-bill-2026-12-08@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-12-09@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:30-year-bond-2026-12-10@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Treasury Auction: 30-Year Bond (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-12-10@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-12-10@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-12-14@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-12-14@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-week-bill-2026-12-15@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-12-16@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-12-17@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-12-17@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-12-21@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-12-21@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20-year-bond-2026-12-22@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Treasury Auction: 20-Year Bond (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:52-week-bill-2026-12-22@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Treasury Auction: 52-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-week-bill-2026-12-22@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-12-23@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2-year-frn-2026-12-23@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Treasury Auction: 2-Year Frn (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5-year-tips-2026-12-23@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Treasury Auction: 5-Year Tips (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-12-24@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-12-24@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13-week-bill-2026-12-28@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Treasury Auction: 13-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2-year-note-2026-12-28@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Treasury Auction: 2-Year Note (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26-week-bill-2026-12-28@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Treasury Auction: 26-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5-year-note-2026-12-28@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Treasury Auction: 5-Year Note (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6-week-bill-2026-12-29@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Treasury Auction: 6-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7-year-note-2026-12-29@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Treasury Auction: 7-Year Note (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17-week-bill-2026-12-30@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Treasury Auction: 17-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4-week-bill-2026-12-31@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Treasury Auction: 4-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8-week-bill-2026-12-31@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Treasury Auction: 8-Week Bill (Time TBD)
+DESCRIPTION:Tentative date or unavailable official closing time. Check form
+ al auction announcement.\nSource: https://home.treasury.gov/system/files/2
+ 21/Tentative-Auction-Schedule.pdf\nVerify current official announcement be
+ fore trading.
+URL:https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.p
+ df
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:treasury-borrowing-estimates-2027-02-01@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20270201T200000Z
+DTEND:20270201T201500Z
+SUMMARY:Treasury Borrowing Estimates
+DESCRIPTION:Scheduled release time ET.\nSource: https://home.treasury.gov/p
+ olicy-issues/financing-the-government/quarterly-refunding/most-recent-quar
+ terly-refunding-documents\nVerify current official announcement before tra
+ ding.
+URL:https://home.treasury.gov/policy-issues/financing-the-government/quarte
+ rly-refunding/most-recent-quarterly-refunding-documents
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:quarterly-refunding-announcement-2027-02-03@treasury-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20270203T133000Z
+DTEND:20270203T134500Z
+SUMMARY:Quarterly Refunding Announcement
+DESCRIPTION:Scheduled release time ET.\nSource: https://home.treasury.gov/p
+ olicy-issues/financing-the-government/quarterly-refunding/most-recent-quar
+ terly-refunding-documents\nVerify current official announcement before tra
+ ding.
+URL:https://home.treasury.gov/policy-issues/financing-the-government/quarte
+ rly-refunding/most-recent-quarterly-refunding-documents
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

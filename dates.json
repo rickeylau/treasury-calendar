@@ -1,0 +1,564 @@
+{
+  "stamp": "20261115T000000Z",
+  "events": [
+    {
+      "date": "2026-11-02",
+      "label": "Treasury Borrowing Estimates",
+      "clock": "15:00",
+      "source": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents",
+      "kind": "qra"
+    },
+    {
+      "date": "2026-11-04",
+      "label": "Quarterly Refunding Announcement",
+      "clock": "08:30",
+      "source": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents",
+      "kind": "qra"
+    },
+    {
+      "date": "2026-11-16",
+      "label": "13-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-16",
+      "label": "26-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": "11:30",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-17",
+      "label": "6-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-18",
+      "label": "17-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-18",
+      "label": "20-Year Bond",
+      "issue": "",
+      "maturity": "",
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-19",
+      "label": "10-Year Tips",
+      "issue": "",
+      "maturity": "",
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-19",
+      "label": "4-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-19",
+      "label": "8-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-23",
+      "label": "13-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-23",
+      "label": "2-Year Note",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-23",
+      "label": "26-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-24",
+      "label": "2-Year Frn",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-24",
+      "label": "5-Year Note",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-24",
+      "label": "52-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-24",
+      "label": "6-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-25",
+      "label": "17-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-25",
+      "label": "4-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-25",
+      "label": "7-Year Note",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-25",
+      "label": "8-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-30",
+      "label": "13-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-11-30",
+      "label": "26-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-01",
+      "label": "6-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-02",
+      "label": "17-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-03",
+      "label": "4-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-03",
+      "label": "8-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-07",
+      "label": "13-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-07",
+      "label": "26-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-07",
+      "label": "3-Year Note",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-08",
+      "label": "10-Year Note",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-08",
+      "label": "6-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-09",
+      "label": "17-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-10",
+      "label": "30-Year Bond",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-10",
+      "label": "4-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-10",
+      "label": "8-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-14",
+      "label": "13-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-14",
+      "label": "26-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-15",
+      "label": "6-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-16",
+      "label": "17-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-17",
+      "label": "4-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-17",
+      "label": "8-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-21",
+      "label": "13-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-21",
+      "label": "26-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-22",
+      "label": "20-Year Bond",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-22",
+      "label": "52-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-22",
+      "label": "6-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-23",
+      "label": "17-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-23",
+      "label": "2-Year Frn",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-23",
+      "label": "5-Year Tips",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-24",
+      "label": "4-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-24",
+      "label": "8-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-28",
+      "label": "13-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-28",
+      "label": "2-Year Note",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-28",
+      "label": "26-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-28",
+      "label": "5-Year Note",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-29",
+      "label": "6-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-29",
+      "label": "7-Year Note",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-30",
+      "label": "17-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-31",
+      "label": "4-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2026-12-31",
+      "label": "8-Week Bill",
+      "issue": "",
+      "maturity": "",
+      "clock": null,
+      "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+      "confirmed": false
+    },
+    {
+      "date": "2027-02-01",
+      "label": "Treasury Borrowing Estimates",
+      "clock": "15:00",
+      "source": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents",
+      "kind": "qra"
+    },
+    {
+      "date": "2027-02-03",
+      "label": "Quarterly Refunding Announcement",
+      "clock": "08:30",
+      "source": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents",
+      "kind": "qra"
+    }
+  ]
+}
