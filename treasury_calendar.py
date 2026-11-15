@@ -15,6 +15,7 @@ PDF='https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf'
 QRA='https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents'
 API='https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query'
 ANN='https://www.treasurydirect.gov/auctions/auction-announcements/'
+TD_API='https://www.treasurydirect.gov/TA_WS/securities/search'
 ET=ZoneInfo('America/New_York')
 SNAP=ROOT/'dates.json'; OUTPUT=ROOT/'treasury.ics'
 TERM=re.compile(r'^\s*(\d+\s*[-–]\s*(?:Week|Year)\s+(?:BILL|NOTE|BOND|TIPS|FRN))\b',re.I)
@@ -30,7 +31,7 @@ def fetch(url,limit=15_000_000):
     attempts=len(RETRY_DELAYS)+1
     for attempt in range(1,attempts+1):
         print(f'Downloading {url} (attempt {attempt}/{attempts})',flush=True)
-        req=Request(url,headers={'User-Agent':'Mozilla/5.0 TreasuryCalendar/1.1','Accept':'*/*'})
+        req=Request(url,headers={'User-Agent':'Mozilla/5.0 TreasuryCalendar/1.2','Accept':'*/*'})
         try:
             with urlopen(req,timeout=FETCH_TIMEOUT) as r:
                 data=r.read(limit+1)
@@ -185,12 +186,126 @@ def render(rows,stamp):
         lines+=['BEGIN:VEVENT','UID:'+uid,'DTSTAMP:'+stamp,*times,'SUMMARY:'+escape(title),'DESCRIPTION:'+escape(desc),'URL:'+r['source'],'TRANSP:TRANSPARENT','END:VEVENT']
     return ('\r\n'.join(fold(l) for l in lines+['END:VCALENDAR'])+'\r\n').encode()
 
-def fetch_actual(today):
+# TreasuryDirect and Fiscal Data are both official Treasury sources.
+# The Direct search uses an issue-date range, then filters by auction date.
+# Accept both the old and the October 2026 field names.
+def td_value(record, *names, required=False):
+    for name in names:
+        value=record.get(name)
+        if value is not None and str(value).strip().lower() not in ('', 'null', 'none'):
+            return str(value).strip()
+    if required:
+        raise ValueError('TreasuryDirect missing '+ '/'.join(names))
+    return ''
+
+
+def td_date(record, *names):
+    value=td_value(record, *names, required=True)
+    if not re.fullmatch(r'\d{4}-\d{2}-\d{2}(?:T[^ ]+)?',value):
+        raise ValueError('Invalid TreasuryDirect date: '+value)
+    return date.fromisoformat(value[:10]).isoformat()
+
+
+def td_normalize(record):
+    if not isinstance(record,dict):
+        raise ValueError('Invalid TreasuryDirect record')
+    kind=td_value(record,'type').upper()
+    typ=td_value(record,'securityType','type',required=True).upper()
+    if typ=='CMB': typ='BILL'
+    if kind=='TIPS': typ='TIPS'
+    if kind=='FRN': typ='FRN'
+    if kind=='CMB': typ='BILL'
+    if typ not in ('BILL','NOTE','BOND','TIPS','FRN'):
+        raise ValueError('Unknown TreasuryDirect security type: '+typ)
+    # Do not silently treat a missing closing-time field as a confirmed time.
+    if not any(k in record for k in ('competitiveAuctionCloseTime','closingTimeCompetitive')):
+        raise ValueError('TreasuryDirect closing-time field missing')
+    cusip=td_value(record,'cusip',required=True)
+    if not re.fullmatch(r'[0-9A-Z]{9}',cusip):
+        raise ValueError('Invalid TreasuryDirect CUSIP')
+    return dict(
+        auction_date=td_date(record,'competitiveAuctionCloseDate','auctionDate'),
+        issue_date=td_date(record,'issueDate'),
+        maturity_date=td_date(record,'maturityDate'),
+        security_type=typ,
+        security_term=td_value(record,'securityTerm',required=True),
+        original_security_term=td_value(record,'originalSecurityTerm'),
+        inflation_index_security='Yes' if kind=='TIPS' or td_value(record,'inflationProtected','tips').lower()=='yes' else 'No',
+        floating_rate='Yes' if kind=='FRN' or td_value(record,'floatingRate').lower()=='yes' else 'No',
+        cash_management_bill_cmb='Yes' if kind=='CMB' or td_value(record,'cashManagementBill','cashManagementBillCMB').lower()=='yes' else 'No',
+        closing_time_comp=td_value(record,'competitiveAuctionCloseTime','closingTimeCompetitive'),
+        cusip=cusip,
+        offering_amt=td_value(record,'offeringAmount'),
+    )
+
+
+def validate_actual(rows, today, old=()):
+    """Reject incomplete/stale results; never publish a partial source as healthy."""
+    today_d=date.fromisoformat(today)
+    cutoff=(today_d-timedelta(days=30)).isoformat()
+    rows=[r for r in rows if r['date']>=cutoff]
+    if len(rows)<10:
+        raise ValueError('Too few official auction records in recent window')
+    past=[r['date'] for r in rows if r['date']<=today]
+    if not past or max(past)<(today_d-timedelta(days=7)).isoformat():
+        raise ValueError('Auction source appears stale')
+    by_key={}
+    for r in rows:
+        key=(r.get('cusip'),r['date'])
+        if not r.get('cusip') or key in by_key:
+            raise ValueError('Missing or duplicate official auction identity: '+str(key))
+        if not r['date']<=r['issue']<=r['maturity']:
+            raise ValueError('Invalid official auction date order')
+        by_key[key]=r
+    # Compare recent previously verified auctions, not tentative PDF rows.
+    # A missing or changed confirmed identity fails closed for manual review.
+    for r in old:
+        if not (r.get('confirmed') and r.get('cusip') and r['date']>=cutoff):
+            continue
+        key=(r['cusip'],r['date'])
+        new=by_key.get(key)
+        if new is None:
+            raise ValueError('Official source missing previously confirmed auction: '+str(key))
+        if r.get('clock') and not new.get('clock'):
+            raise ValueError('Official source lost a previously confirmed closing time: '+str(key))
+    return rows
+
+
+def fetch_treasury_direct(today, old=()):
+    today_d=date.fromisoformat(today)
+    start=(today_d-timedelta(days=30)).isoformat()
+    end=(today_d+timedelta(days=60)).isoformat()
+    url=TD_API+'?'+urlencode({'startDate':start,'endDate':end,'format':'json'})
+    data=json.loads(fetch(url))
+    if not isinstance(data,list) or not data:
+        raise ValueError('Empty or unexpected TreasuryDirect response')
+    rows=actual_rows([td_normalize(r) for r in data])
+    return validate_actual(rows,today,old)
+
+
+def fetch_fiscal_data(today, old=()):
     start=(date.fromisoformat(today)-timedelta(days=30)).isoformat()
+    # Keep the proven Fiscal Data query as a secondary source.
     url=API+'?'+urlencode({'filter':'auction_date:gte:'+start,'page[size]':1000,'sort':'auction_date'})
     data=json.loads(fetch(url)); rows=data['data']
-    if not rows or data.get('meta',{}).get('total-pages',1)>1:raise ValueError('Empty or incomplete Fiscal Data response')
-    return actual_rows(rows)
+    if not isinstance(rows,list) or not rows or int(data.get('meta',{}).get('total-pages',1))>1:
+        raise ValueError('Empty or incomplete Fiscal Data response')
+    return validate_actual(actual_rows(rows),today,old)
+
+
+def fetch_actual(today, old=()):
+    errors=[]
+    for name,loader in (('TreasuryDirect',fetch_treasury_direct),('Fiscal Data',fetch_fiscal_data)):
+        print(f'Checking official auction source: {name}',flush=True)
+        try:
+            rows=loader(today,old)
+        except (OSError,URLError,IncompleteRead,ValueError,KeyError,TypeError,AttributeError) as e:
+            errors.append(f'{name}: {type(e).__name__}: {e}')
+            print(f'WARNING: {errors[-1]}',flush=True)
+            continue
+        print(f'Official auction source: {name}; {len(rows)} validated records',flush=True)
+        return rows
+    raise RuntimeError('Both official auction sources failed; existing calendar retained. '+' | '.join(errors))
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--offline',action='store_true');args=p.parse_args()
@@ -203,7 +318,7 @@ def main():
         horizon=max(r['date'] for r in schedule)
         previous=max((r['date'] for r in old['events'] if r.get('kind')!='qra'),default=today)
         if horizon<max(today,previous):raise ValueError('Official tentative schedule is stale or shortened; retaining existing calendar')
-        actual=fetch_actual(today)
+        actual=fetch_actual(today,old['events'])
         qra=parse_qra(fetch(QRA))
         if max(r['date'] for r in qra)<today:raise ValueError('Quarterly release page stale')
         rows=merge(schedule,actual,old['events'],today)
