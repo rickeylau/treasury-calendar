@@ -8,6 +8,18 @@ class TestCalendar(unittest.TestCase):
     def test_qra(self):
         h='<h3>DOCUMENTS RELEASED at 3:00 PM Monday, November 2, 2026</h3><a>Financing Estimates: 2026</a><p>(The next release is scheduled for February 1, 2027)</p><h3>DOCUMENTS RELEASED at 8:30 AM Wednesday, November 4, 2026</h3><a>Policy Statement: 2026</a><p>(The next release is scheduled for February 3, 2027)</p>'
         r=parse_qra(h);self.assertEqual(r[-1]['date'],'2027-02-03');self.assertEqual(r[-1]['clock'],'08:30')
+    def test_qra_html_spacing(self):
+        h=("<h3>DOCUMENTS RELEASED at <span>3:00</span> PM Monday,\u00a0November <b>2</b><span>,</span> 2026</h3>"
+           "<a>Financing Estimates<span>:</span> 2026</a><p>The next release is scheduled for <b>Monday, February 1</b><span>,</span> 2027</p>"
+           "<h3>DOCUMENTS RELEASED at 8:30 AM Wednesday, November 4, 2026</h3>"
+           "<a>Policy Statement: 2026</a><p>The next release is scheduled for February 3 , 2027</p>"
+           "<h3>DOCUMENTS RELEASED at 12:00 PM Friday, October 16, 2026</h3><a>Primary Dealer Meeting Agenda</a>"
+           "<p>The next release is scheduled for January 15, 2027</p>")
+        rows=parse_qra(h)
+        self.assertEqual([(r['date'],r['clock']) for r in rows],[('2026-11-02','15:00'),('2027-02-01','15:00'),('2026-11-04','08:30'),('2027-02-03','08:30')])
+    def test_qra_missing_rejected(self):
+        with self.assertRaises(ValueError):
+            parse_qra('<h3>DOCUMENTS RELEASED at 3:00 PM Monday, November 2, 2026</h3><a>Financing Estimates: 2026</a>')
     def test_merge(self):
         s=dict(date='2026-11-16',label='13-Week Bill',issue='2026-11-19',maturity='2027-02-18',clock=None,source=PDF)
         actual=actual_rows([dict(auction_date='2026-11-16',issue_date='2026-11-19',maturity_date='2027-02-18',security_type='Bill',security_term='52-Week',closing_time_comp='11:30 AM',cusip='912797TV9')])

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """US Treasury auction and quarterly financing calendar. No API keys or trading actions."""
-import argparse, json, re, subprocess, tempfile
+import argparse, json, re, subprocess, tempfile, unicodedata
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlencode
@@ -44,21 +44,35 @@ def parse_pdf_text(text):
     return rows
 
 def parse_qra(html):
+    # Normalize HTML token boundaries, nonbreaking spaces and invisible formatting.
     text=' '.join(BeautifulSoup(html,'html.parser').stripped_strings)
-    sections=re.split(r'DOCUMENTS RELEASED\s+at\s+',text,flags=re.I)[1:]
-    rows=[]
-    for s in sections:
-        low=s.lower()
-        if 'financing estimates:' in low: label='Treasury Borrowing Estimates'; clock='15:00'
-        elif 'policy statement:' in low and 'financing estimates:' not in low: label='Quarterly Refunding Announcement'; clock='08:30'
-        else: continue
-        tm=re.match(r'(\d{1,2}:\d{2}\s*[AP]M)\b',s,re.I)
-        if not tm: raise ValueError('Missing official QRA release time')
-        clock=datetime.strptime(tm[1].upper().replace(' ',''),'%I:%M%p').strftime('%H:%M')
-        prev=DATE_TEXT.search(s)
-        nxt=re.search(r'next release is scheduled for\s+([A-Za-z]+)\s+(\d{1,2}),\s+(20\d{2})',s,re.I)
-        if not prev or not nxt: raise ValueError('Missing QRA release dates')
-        for m in (prev,nxt): rows.append(dict(date=date_parts(*m.groups()),label=label,clock=clock,source=QRA,kind='qra'))
+    text=unicodedata.normalize('NFKC',text)
+    text=re.sub(r'[\u200b\u200c\u200d\ufeff\u00ad]', '', text)
+    text=re.sub(r'\s+', ' ', text).strip()
+    sections=re.split(r'\bDOCUMENTS\s+RELEASED\s+at\s+',text,flags=re.I)[1:]
+    month=r'(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?'
+    date_pattern=month+r'\s+(\d{1,2})\s*(?:,\s*|\s+)(20\d{2})\b'
+    weekday=r'(?:(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Mon|Tue|Wed|Thu|Fri|Sat|Sun)\.?\s*,?\s+)?'
+    rows=[]; seen=set()
+    for section in sections:
+        if re.search(r'\bfinancing\s+estimates\s*:',section,re.I):
+            label='Treasury Borrowing Estimates'
+        elif re.search(r'\bpolicy\s+statement\s*:',section,re.I):
+            label='Quarterly Refunding Announcement'
+        else:
+            continue
+        if label in seen: raise ValueError('Duplicate QRA category: '+label)
+        head=re.match(r'(\d{1,2}\s*:\s*\d{2}\s*[AP]\.?\s*M\.?)\s+'+weekday+date_pattern,section,re.I)
+        nxt=re.search(r'next\s+release\s+(?:is\s+)?scheduled\s+for\s+'+weekday+date_pattern,section,re.I)
+        if not head or not nxt:
+            raise ValueError('Missing QRA release dates for '+label+'; section starts: '+section[:160])
+        clock=datetime.strptime(re.sub(r'[.\s]','',head[1]).upper(),'%I:%M%p').strftime('%H:%M')
+        prev_date=date_parts(*head.groups()[1:])
+        next_date=date_parts(*nxt.groups())
+        if not prev_date<next_date: raise ValueError('Invalid QRA date order: '+label)
+        for d in (prev_date,next_date):
+            rows.append(dict(date=d,label=label,clock=clock,source=QRA,kind='qra'))
+        seen.add(label)
     if len(rows)!=4: raise ValueError('Expected both quarterly release categories')
     return rows
 
