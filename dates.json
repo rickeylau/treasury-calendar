@@ -1,5 +1,5 @@
 {
-  "stamp": "20261117T172110Z",
+  "stamp": "20261118T165206Z",
   "events": [
     {
       "date": "2026-10-19",
@@ -486,6 +486,17 @@
       "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
       "cusip": "912797WQ6",
       "amount": "110000000000",
+      "confirmed": true
+    },
+    {
+      "date": "2026-11-19",
+      "label": "Cash Management Bill 9-Day",
+      "issue": "2026-11-24",
+      "maturity": "2026-12-03",
+      "clock": "13:00",
+      "source": "https://www.treasurydirect.gov/auctions/auction-announcements/",
+      "cusip": "912797VA2",
+      "amount": "15000000000",
       "confirmed": true
     },
     {
